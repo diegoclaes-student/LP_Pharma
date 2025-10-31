@@ -1,0 +1,11 @@
+# Core scraping dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+rapidfuzz>=3.0.0
+
+# Google Sheets integration
+gspread>=5.12.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/output/*.csv
+!data/output/.gitkeep
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache
+scraper_data/
+url_cache.json
+*.cache
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Google Sheets credentials (IMPORTANT: never commit!)
+sa_key.json
+*-service-account*.json
+.config/lp_pharma/
+credentials.json
+token.json
